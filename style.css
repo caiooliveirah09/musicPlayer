@@ -1,0 +1,47 @@
+body{
+    background-color: #2C3232;
+}
+.containerGrande{
+    background-color: #7B8F8F;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em black;
+    border: 1px solid #ffffff;
+}
+.audio{
+    top: 60%;
+    position: relative;
+    box-shadow: 0 0 1em black;
+    border-radius: 25px;
+    left: 25px;
+}
+.containerMedio{
+    max-width: 200px;
+    max-height: 250px;
+
+}
+img{
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    left: 25%;
+    border: green;
+    box-shadow: inset 0 0 1em black, 0 0 1em black;
+    bottom: 50px;
+}
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
