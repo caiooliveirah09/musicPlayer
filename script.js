@@ -6,7 +6,7 @@ function play(){
     const video2 = document.getElementById("audio1");
     const foto = document.getElementById("play").src;
     console.log(foto)
-    if(foto === "http://127.0.0.1:5500/img/play.png"){
+    if(foto === "https://caiooliveirah09.github.io/musicPlayer/img/play.png"){
         video2.play();
         document.getElementById("play").src="./img/pause.png";
         console.log(foto)
